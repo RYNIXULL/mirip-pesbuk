@@ -1,0 +1,22 @@
+{
+  "name": "facebook-vuln-sqli-lab",
+  "version": "1.0.0",
+  "description": "Laboratorium pengujian SQL Injection media sosial bergaya Facebook yang sengaja dibuat rentan untuk edukasi keamanan siber.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "keywords": [
+    "sql-injection",
+    "security-lab",
+    "sqli",
+    "vulnerable-web-app"
+  ],
+  "author": "Antigravity Security Lab",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^4.22.3"
+  }
+}
